@@ -6,6 +6,8 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "server/src/index.js" },
+    { "src": "/assets/(.*)", "dest": "client/dist/assets/$1" },
+    { "src": "/favicon.ico", "dest": "client/dist/favicon.ico" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "client/dist/index.html" }
   ]
