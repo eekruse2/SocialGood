@@ -3,6 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import userRoutes from './routes/userRoutes.js';
+import itemRoutes from './routes/itemRoutes.js';
 
 // Load environment variables
 dotenv.config();
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // API Routes
 app.use('/api/users', userRoutes);
+app.use('/api/items', itemRoutes);
 
 // Basic route
 app.get('/api', (req, res) => {
