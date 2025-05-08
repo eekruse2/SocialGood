@@ -1,6 +1,6 @@
 # Social Good Platform
 
-A full-stack application to connect owner's of lost items with finders of mathcing lost items.
+A full-stack application to reconnect medium-high value lost items to the owner.
 
 ## Features
 User side: 
@@ -16,6 +16,8 @@ Upload found item with optional descriptions and images and pin exact location.
 Dev side: 
 
 Matches descriptions and rough locations, emailing finder and loser of a potential match.
+
+If matched, owner is prompted with option to "Buy your finder a coffee"
 
 ## Project Structure
 - `/client` - React frontend
