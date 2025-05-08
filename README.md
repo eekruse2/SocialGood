@@ -4,11 +4,15 @@ A full-stack application to connect owner's of lost items with finders of mathci
 
 ## Features
 User side: 
+
 Upload lost item with optional descriptions and images and trace a rough path of where you were on that day on E-Map. 
+
 or
+
 Upload found item with optional descriptions and images and pin exact location.
 
 Dev side: 
+
 Matches descriptions and rough locations, emailing finder and loser of a potential match.
 
 ## Project Structure
