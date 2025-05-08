@@ -10,8 +10,6 @@ or
 
 Upload found item with optional descriptions and images and pin exact location.
 
-
-
 Dev side: 
 
 Matches descriptions and rough locations, emailing finder and loser of a potential match.
@@ -36,11 +34,6 @@ Notifications: SendGrid, Firebase
 ## Project Structure
 - `/client` - React frontend
 - `/server` - Node/Express backend
-
-## Technologies
-- Frontend: React
-- Backend: Node.js, Express
-- Database: PostgreSQL
 
 ## Setup Instructions
 1. Clone the repository
