@@ -2,7 +2,6 @@
 
 A full-stack application to reconnect medium to high value lost items to their owners.
 
-## Features
 User side: 
 
 Upload lost item with optional descriptions and images and trace a rough path of where you were on that day on E-Map. 
@@ -18,6 +17,21 @@ Dev side:
 Matches descriptions and rough locations, emailing finder and loser of a potential match.
 
 If matched, owner is prompted with option to "Buy your finder a coffee"
+
+## Features
+- User authentication
+- Interactive map for location selection
+- Photo upload and tag-based matching
+- Spatial matching using PostGIS
+- Email and push notifications
+- Gift payment integration
+  
+## Tech Stack
+Frontend: React + Mapbox GL + Tailwind CSS
+Backend: Node.js with Express
+Database: PostgreSQL with PostGIS
+Payments: Stripe
+Notifications: SendGrid, Firebase
 
 ## Project Structure
 - `/client` - React frontend
