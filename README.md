@@ -1,6 +1,6 @@
 # Social Good Platform
 
-A full-stack application to reconnect medium-high value lost items to the owner.
+A full-stack application to reconnect medium to high value lost items to their owners.
 
 ## Features
 User side: 
